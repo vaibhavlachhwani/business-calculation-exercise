@@ -1,5 +1,5 @@
 package com.vaibhav.BusinessCalculationExercise;
 
-public interface DataService {
+public interface IDataService {
     public int[] retrieveData();
 }
