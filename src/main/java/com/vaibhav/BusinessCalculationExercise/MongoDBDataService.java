@@ -2,8 +2,9 @@ package com.vaibhav.BusinessCalculationExercise;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Primary
 public class MongoDBDataService implements IDataService {
     @Override

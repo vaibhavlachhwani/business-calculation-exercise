@@ -2,8 +2,9 @@ package com.vaibhav.BusinessCalculationExercise;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 @Qualifier("MySQLDataServiceQualifier")
 public class MySQLDataService implements IDataService {
     @Override
